@@ -55,6 +55,7 @@ class lianxi:
                     print(str(self.open_file().index(n) + 1))
                     print(str(self.open_file().index(n) + 1) + "---------" + self.zentao.get_att(self.loc1, "value"))
                     self.zentao.clear(self.loc1)
+                    pass
 
 
 if __name__ == '__main__':
